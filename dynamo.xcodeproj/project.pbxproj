@@ -11,27 +11,49 @@
 		D82A80AD2B1A23A300BFBDB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80AC2B1A23A300BFBDB6 /* ContentView.swift */; };
 		D82A80AF2B1A23A300BFBDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82A80AE2B1A23A300BFBDB6 /* Assets.xcassets */; };
 		D82A80B22B1A23A300BFBDB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82A80B12B1A23A300BFBDB6 /* Preview Assets.xcassets */; };
-		D82A80BC2B1A23A400BFBDB6 /* dynamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80BB2B1A23A400BFBDB6 /* dynamoTests.swift */; };
-		D82A80C62B1A23A400BFBDB6 /* dynamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80C52B1A23A400BFBDB6 /* dynamoUITests.swift */; };
-		D82A80C82B1A23A400BFBDB6 /* dynamoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80C72B1A23A400BFBDB6 /* dynamoUITestsLaunchTests.swift */; };
+		D82A80D82B1A245C00BFBDB6 /* useExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80D72B1A245C00BFBDB6 /* useExercise.swift */; };
+		D82A80DA2B1A247500BFBDB6 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80D92B1A247500BFBDB6 /* Exercise.swift */; };
+		D82A80DC2B1A249600BFBDB6 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80DB2B1A249500BFBDB6 /* ExerciseRow.swift */; };
+		D82A80DE2B1A24AE00BFBDB6 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80DD2B1A24AE00BFBDB6 /* ExerciseList.swift */; };
+		D82A80E02B1A294500BFBDB6 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80DF2B1A294500BFBDB6 /* CountdownTimer.swift */; };
+		D82A80E42B1A2B9B00BFBDB6 /* useCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80E32B1A2B9B00BFBDB6 /* useCountdownTimer.swift */; };
+		D82A80E62B1A33A400BFBDB6 /* SelectedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80E52B1A33A400BFBDB6 /* SelectedExercise.swift */; };
+		D8F181A22B1DD32F0075B52C /* TimeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F181A12B1DD32F0075B52C /* TimeSection.swift */; };
+		D8F181AA2B1E0EFA0075B52C /* watchnamoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F181A92B1E0EFA0075B52C /* watchnamoApp.swift */; };
+		D8F181AC2B1E0EFA0075B52C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F181AB2B1E0EFA0075B52C /* ContentView.swift */; };
+		D8F181B12B1E0EFB0075B52C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F181B02B1E0EFB0075B52C /* Preview Assets.xcassets */; };
+		D8F181CA2B1E0EFB0075B52C /* Dynamo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D8F181A72B1E0EFA0075B52C /* Dynamo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8F181D52B1E10AC0075B52C /* SelectedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80E52B1A33A400BFBDB6 /* SelectedExercise.swift */; };
+		D8F181D62B1E10AC0075B52C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80D92B1A247500BFBDB6 /* Exercise.swift */; };
+		D8F181D72B1E10AC0075B52C /* useCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80E32B1A2B9B00BFBDB6 /* useCountdownTimer.swift */; };
+		D8F181D82B1E10AC0075B52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82A80AE2B1A23A300BFBDB6 /* Assets.xcassets */; };
+		D8F181D92B1E10AC0075B52C /* useExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80D72B1A245C00BFBDB6 /* useExercise.swift */; };
+		D8F181DA2B1E12790075B52C /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A80DF2B1A294500BFBDB6 /* CountdownTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D82A80B82B1A23A400BFBDB6 /* PBXContainerItemProxy */ = {
+		D8A097D32B1E9E5900F959A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D82A809F2B1A23A300BFBDB6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D82A80A62B1A23A300BFBDB6;
-			remoteInfo = dynamo;
-		};
-		D82A80C22B1A23A400BFBDB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D82A809F2B1A23A300BFBDB6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D82A80A62B1A23A300BFBDB6;
-			remoteInfo = dynamo;
+			remoteGlobalIDString = D8F181A62B1E0EFA0075B52C;
+			remoteInfo = watchnamo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8F181CE2B1E0EFB0075B52C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D8F181CA2B1E0EFB0075B52C /* Dynamo.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D82A80A72B1A23A300BFBDB6 /* dynamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,11 +61,19 @@
 		D82A80AC2B1A23A300BFBDB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D82A80AE2B1A23A300BFBDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D82A80B12B1A23A300BFBDB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D82A80B72B1A23A400BFBDB6 /* dynamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82A80BB2B1A23A400BFBDB6 /* dynamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamoTests.swift; sourceTree = "<group>"; };
-		D82A80C12B1A23A400BFBDB6 /* dynamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82A80C52B1A23A400BFBDB6 /* dynamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamoUITests.swift; sourceTree = "<group>"; };
-		D82A80C72B1A23A400BFBDB6 /* dynamoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D82A80D72B1A245C00BFBDB6 /* useExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useExercise.swift; sourceTree = "<group>"; };
+		D82A80D92B1A247500BFBDB6 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		D82A80DB2B1A249500BFBDB6 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
+		D82A80DD2B1A24AE00BFBDB6 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
+		D82A80DF2B1A294500BFBDB6 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		D82A80E32B1A2B9B00BFBDB6 /* useCountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useCountdownTimer.swift; sourceTree = "<group>"; };
+		D82A80E52B1A33A400BFBDB6 /* SelectedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedExercise.swift; sourceTree = "<group>"; };
+		D8A81A6F2B1E92AD00F81929 /* watchnamo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watchnamo.entitlements; sourceTree = "<group>"; };
+		D8F181A12B1DD32F0075B52C /* TimeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSection.swift; sourceTree = "<group>"; };
+		D8F181A72B1E0EFA0075B52C /* Dynamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F181A92B1E0EFA0075B52C /* watchnamoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchnamoApp.swift; sourceTree = "<group>"; };
+		D8F181AB2B1E0EFA0075B52C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8F181B02B1E0EFB0075B52C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D82A80B42B1A23A400BFBDB6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D82A80BE2B1A23A400BFBDB6 /* Frameworks */ = {
+		D8F181A42B1E0EFA0075B52C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,13 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D81B16A42B1E9CBC00726DA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D82A809E2B1A23A300BFBDB6 = {
 			isa = PBXGroup;
 			children = (
 				D82A80A92B1A23A300BFBDB6 /* dynamo */,
-				D82A80BA2B1A23A400BFBDB6 /* dynamoTests */,
-				D82A80C42B1A23A400BFBDB6 /* dynamoUITests */,
+				D8F181A82B1E0EFA0075B52C /* watchnamo */,
 				D82A80A82B1A23A300BFBDB6 /* Products */,
+				D81B16A42B1E9CBC00726DA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D82A80A72B1A23A300BFBDB6 /* dynamo.app */,
-				D82A80B72B1A23A400BFBDB6 /* dynamoTests.xctest */,
-				D82A80C12B1A23A400BFBDB6 /* dynamoUITests.xctest */,
+				D8F181A72B1E0EFA0075B52C /* Dynamo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +123,10 @@
 		D82A80A92B1A23A300BFBDB6 /* dynamo */ = {
 			isa = PBXGroup;
 			children = (
+				D82A80D62B1A23DD00BFBDB6 /* Views */,
+				D82A80D52B1A23C600BFBDB6 /* Models */,
+				D82A80D42B1A23BC00BFBDB6 /* Hooks */,
 				D82A80AA2B1A23A300BFBDB6 /* dynamoApp.swift */,
-				D82A80AC2B1A23A300BFBDB6 /* ContentView.swift */,
 				D82A80AE2B1A23A300BFBDB6 /* Assets.xcassets */,
 				D82A80B02B1A23A300BFBDB6 /* Preview Content */,
 			);
@@ -110,21 +141,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D82A80BA2B1A23A400BFBDB6 /* dynamoTests */ = {
+		D82A80D42B1A23BC00BFBDB6 /* Hooks */ = {
 			isa = PBXGroup;
 			children = (
-				D82A80BB2B1A23A400BFBDB6 /* dynamoTests.swift */,
+				D82A80D72B1A245C00BFBDB6 /* useExercise.swift */,
+				D82A80E32B1A2B9B00BFBDB6 /* useCountdownTimer.swift */,
 			);
-			path = dynamoTests;
+			path = Hooks;
 			sourceTree = "<group>";
 		};
-		D82A80C42B1A23A400BFBDB6 /* dynamoUITests */ = {
+		D82A80D52B1A23C600BFBDB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D82A80C52B1A23A400BFBDB6 /* dynamoUITests.swift */,
-				D82A80C72B1A23A400BFBDB6 /* dynamoUITestsLaunchTests.swift */,
+				D82A80D92B1A247500BFBDB6 /* Exercise.swift */,
 			);
-			path = dynamoUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D82A80D62B1A23DD00BFBDB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D82A80AC2B1A23A300BFBDB6 /* ContentView.swift */,
+				D82A80DB2B1A249500BFBDB6 /* ExerciseRow.swift */,
+				D82A80DD2B1A24AE00BFBDB6 /* ExerciseList.swift */,
+				D82A80DF2B1A294500BFBDB6 /* CountdownTimer.swift */,
+				D82A80E52B1A33A400BFBDB6 /* SelectedExercise.swift */,
+				D8F181A12B1DD32F0075B52C /* TimeSection.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8F181A82B1E0EFA0075B52C /* watchnamo */ = {
+			isa = PBXGroup;
+			children = (
+				D8A81A6F2B1E92AD00F81929 /* watchnamo.entitlements */,
+				D8F181A92B1E0EFA0075B52C /* watchnamoApp.swift */,
+				D8F181AB2B1E0EFA0075B52C /* ContentView.swift */,
+				D8F181AF2B1E0EFB0075B52C /* Preview Content */,
+			);
+			path = watchnamo;
+			sourceTree = "<group>";
+		};
+		D8F181AF2B1E0EFB0075B52C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8F181B02B1E0EFB0075B52C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,51 +200,34 @@
 				D82A80A32B1A23A300BFBDB6 /* Sources */,
 				D82A80A42B1A23A300BFBDB6 /* Frameworks */,
 				D82A80A52B1A23A300BFBDB6 /* Resources */,
+				D8F181CE2B1E0EFB0075B52C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D8A097D42B1E9E5900F959A1 /* PBXTargetDependency */,
 			);
 			name = dynamo;
 			productName = dynamo;
 			productReference = D82A80A72B1A23A300BFBDB6 /* dynamo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D82A80B62B1A23A400BFBDB6 /* dynamoTests */ = {
+		D8F181A62B1E0EFA0075B52C /* watchnamo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D82A80CE2B1A23A400BFBDB6 /* Build configuration list for PBXNativeTarget "dynamoTests" */;
+			buildConfigurationList = D8F181CB2B1E0EFB0075B52C /* Build configuration list for PBXNativeTarget "watchnamo" */;
 			buildPhases = (
-				D82A80B32B1A23A400BFBDB6 /* Sources */,
-				D82A80B42B1A23A400BFBDB6 /* Frameworks */,
-				D82A80B52B1A23A400BFBDB6 /* Resources */,
+				D8F181A32B1E0EFA0075B52C /* Sources */,
+				D8F181A42B1E0EFA0075B52C /* Frameworks */,
+				D8F181A52B1E0EFA0075B52C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D82A80B92B1A23A400BFBDB6 /* PBXTargetDependency */,
 			);
-			name = dynamoTests;
-			productName = dynamoTests;
-			productReference = D82A80B72B1A23A400BFBDB6 /* dynamoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D82A80C02B1A23A400BFBDB6 /* dynamoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D82A80D12B1A23A400BFBDB6 /* Build configuration list for PBXNativeTarget "dynamoUITests" */;
-			buildPhases = (
-				D82A80BD2B1A23A400BFBDB6 /* Sources */,
-				D82A80BE2B1A23A400BFBDB6 /* Frameworks */,
-				D82A80BF2B1A23A400BFBDB6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D82A80C32B1A23A400BFBDB6 /* PBXTargetDependency */,
-			);
-			name = dynamoUITests;
-			productName = dynamoUITests;
-			productReference = D82A80C12B1A23A400BFBDB6 /* dynamoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = watchnamo;
+			productName = "watchnamo Watch App";
+			productReference = D8F181A72B1E0EFA0075B52C /* Dynamo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,13 +242,8 @@
 					D82A80A62B1A23A300BFBDB6 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					D82A80B62B1A23A400BFBDB6 = {
+					D8F181A62B1E0EFA0075B52C = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = D82A80A62B1A23A300BFBDB6;
-					};
-					D82A80C02B1A23A400BFBDB6 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = D82A80A62B1A23A300BFBDB6;
 					};
 				};
 			};
@@ -220,8 +261,7 @@
 			projectRoot = "";
 			targets = (
 				D82A80A62B1A23A300BFBDB6 /* dynamo */,
-				D82A80B62B1A23A400BFBDB6 /* dynamoTests */,
-				D82A80C02B1A23A400BFBDB6 /* dynamoUITests */,
+				D8F181A62B1E0EFA0075B52C /* watchnamo */,
 			);
 		};
 /* End PBXProject section */
@@ -236,17 +276,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D82A80B52B1A23A400BFBDB6 /* Resources */ = {
+		D8F181A52B1E0EFA0075B52C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D82A80BF2B1A23A400BFBDB6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D8F181B12B1E0EFB0075B52C /* Preview Assets.xcassets in Resources */,
+				D8F181D82B1E10AC0075B52C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,40 +292,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82A80E62B1A33A400BFBDB6 /* SelectedExercise.swift in Sources */,
 				D82A80AD2B1A23A300BFBDB6 /* ContentView.swift in Sources */,
+				D82A80DA2B1A247500BFBDB6 /* Exercise.swift in Sources */,
+				D82A80E02B1A294500BFBDB6 /* CountdownTimer.swift in Sources */,
+				D82A80DC2B1A249600BFBDB6 /* ExerciseRow.swift in Sources */,
+				D8F181A22B1DD32F0075B52C /* TimeSection.swift in Sources */,
+				D82A80D82B1A245C00BFBDB6 /* useExercise.swift in Sources */,
 				D82A80AB2B1A23A300BFBDB6 /* dynamoApp.swift in Sources */,
+				D82A80DE2B1A24AE00BFBDB6 /* ExerciseList.swift in Sources */,
+				D82A80E42B1A2B9B00BFBDB6 /* useCountdownTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D82A80B32B1A23A400BFBDB6 /* Sources */ = {
+		D8F181A32B1E0EFA0075B52C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82A80BC2B1A23A400BFBDB6 /* dynamoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D82A80BD2B1A23A400BFBDB6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D82A80C82B1A23A400BFBDB6 /* dynamoUITestsLaunchTests.swift in Sources */,
-				D82A80C62B1A23A400BFBDB6 /* dynamoUITests.swift in Sources */,
+				D8F181D52B1E10AC0075B52C /* SelectedExercise.swift in Sources */,
+				D8F181D92B1E10AC0075B52C /* useExercise.swift in Sources */,
+				D8F181D62B1E10AC0075B52C /* Exercise.swift in Sources */,
+				D8F181DA2B1E12790075B52C /* CountdownTimer.swift in Sources */,
+				D8F181AC2B1E0EFA0075B52C /* ContentView.swift in Sources */,
+				D8F181D72B1E10AC0075B52C /* useCountdownTimer.swift in Sources */,
+				D8F181AA2B1E0EFA0075B52C /* watchnamoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D82A80B92B1A23A400BFBDB6 /* PBXTargetDependency */ = {
+		D8A097D42B1E9E5900F959A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D82A80A62B1A23A300BFBDB6 /* dynamo */;
-			targetProxy = D82A80B82B1A23A400BFBDB6 /* PBXContainerItemProxy */;
-		};
-		D82A80C32B1A23A400BFBDB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D82A80A62B1A23A300BFBDB6 /* dynamo */;
-			targetProxy = D82A80C22B1A23A400BFBDB6 /* PBXContainerItemProxy */;
+			target = D8F181A62B1E0EFA0075B52C /* watchnamo */;
+			targetProxy = D8A097D32B1E9E5900F959A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +452,7 @@
 		D82A80CC2B1A23A400BFBDB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +461,7 @@
 				DEVELOPMENT_TEAM = QDB65CXLHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dynamo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +483,7 @@
 		D82A80CD2B1A23A400BFBDB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +492,7 @@
 				DEVELOPMENT_TEAM = QDB65CXLHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dynamo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,79 +511,65 @@
 			};
 			name = Release;
 		};
-		D82A80CF2B1A23A400BFBDB6 /* Debug */ = {
+		D8F181CC2B1E0EFB0075B52C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchnamo/Preview Content\"";
 				DEVELOPMENT_TEAM = QDB65CXLHC;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.element.dynamo;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamo.watchnamo;
+				PRODUCT_NAME = Dynamo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynamo";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
-		D82A80D02B1A23A400BFBDB6 /* Release */ = {
+		D8F181CD2B1E0EFB0075B52C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchnamo/Preview Content\"";
 				DEVELOPMENT_TEAM = QDB65CXLHC;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.element.dynamo;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamo.watchnamo;
+				PRODUCT_NAME = Dynamo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynamo";
-			};
-			name = Release;
-		};
-		D82A80D22B1A23A400BFBDB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = dynamo;
-			};
-			name = Debug;
-		};
-		D82A80D32B1A23A400BFBDB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.dynamoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = dynamo;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -569,20 +594,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D82A80CE2B1A23A400BFBDB6 /* Build configuration list for PBXNativeTarget "dynamoTests" */ = {
+		D8F181CB2B1E0EFB0075B52C /* Build configuration list for PBXNativeTarget "watchnamo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D82A80CF2B1A23A400BFBDB6 /* Debug */,
-				D82A80D02B1A23A400BFBDB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D82A80D12B1A23A400BFBDB6 /* Build configuration list for PBXNativeTarget "dynamoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D82A80D22B1A23A400BFBDB6 /* Debug */,
-				D82A80D32B1A23A400BFBDB6 /* Release */,
+				D8F181CC2B1E0EFB0075B52C /* Debug */,
+				D8F181CD2B1E0EFB0075B52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
